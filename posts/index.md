@@ -1,13 +1,10 @@
 ---
 layout: archive
-permalink: /
-title: "Latest Posts"
-image:
-  feature: homeimage.png
+title: "All Posts"
 ---
 
 <div class="tiles">
 {% for post in site.posts %}
-	{% include post-grid.html %}
+	{% include post-list.html %}
 {% endfor %}
 </div><!-- /.tiles -->
